@@ -1,18 +1,18 @@
 function main() {
-var password = "XTheCode";
-var userInput= prompt("Enter the password");
-while (userInput!==password)  {
+	var password = "XTheCode";
+	var userInput = prompt("Enter the password");
+	while (userInput !== password) {
+	    userInput = prompt("YOU SHALL NOT PASS!!!-_-");
+	}
 
-
+	alert("THAT IS CORRECT!!!");
 }
-}
-var userInput=prompt("YOU SHALL NOT PASS!!!-_-");
-alert(userInput);
-
-
-
-
-
-
 
 main();
+
+/*
+
+	KEY: Function not formatted properly for it to run
+	Need comments.
+
+*/
